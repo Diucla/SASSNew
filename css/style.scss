@@ -1,0 +1,35 @@
+$c-azul : #00f;
+$b-cinza : 1px solid #eee;
+// $radius : 10px;
+
+@mixin border-radius($radius){
+	border-radius: $radius; 
+}
+
+
+
+.cor1 {
+	color : $c-azul;
+	font-size : 2em;
+}
+
+.cima{
+	background: $c-azul;
+}
+
+div{
+	background: #fff;
+	border: $b-cinza;
+	@include border-radius(10px);
+	h2{
+		color: $c-azul;
+
+	}
+
+	ul {
+		list-style: none;
+	}
+
+
+
+}

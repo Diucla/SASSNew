@@ -1,0 +1,17 @@
+.cor1 {
+  color: #00f;
+  font-size: 2em; }
+
+.cima {
+  background: #00f; }
+
+div {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px; }
+  div h2 {
+    color: #00f; }
+  div ul {
+    list-style: none; }
+
+/*# sourceMappingURL=style1.css.map */
